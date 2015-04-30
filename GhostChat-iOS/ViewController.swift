@@ -63,7 +63,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         advertiseNewName(myTextField.text)
         putPeripheralManagerIntoMainQueue()
         
-
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "carbonFiber.jpg")!)
     }
 
     override func didReceiveMemoryWarning() {
