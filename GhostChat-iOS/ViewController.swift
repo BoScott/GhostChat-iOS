@@ -64,10 +64,10 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         return false
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        myTextField.resignFirstResponder()
-
-    }
+//    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+//        myTextField.resignFirstResponder()
+//
+//    }
     
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
@@ -447,6 +447,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         //
         println("selected: \(indexPath.row)")
         myTextField.resignFirstResponder()
+        nameField.resignFirstResponder()
 
   //      updateStatusLabel("selected: \(cleanAndSortedArray[indexPath.row].3)")
         
