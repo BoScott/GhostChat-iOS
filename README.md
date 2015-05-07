@@ -9,7 +9,8 @@ Added ReadMe for Forking Example
 4. Mock up using U.S. army scenario
 
 # Screen Shot
-![ScreenShot](https://github.com/BoScott/GhostChat-iOS/blob/master/screenshot.PNG) 
+![ScreenShot](https://github.com/BoScott/GhostChat-iOS/blob/master/IMG_2321.PNG) 
+![ScreenShot](https://github.com/BoScott/GhostChat-iOS/blob/master/IMG_2322.PNG) 
 
 # Code Runs On:
 + iOS 8.1+
