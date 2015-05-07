@@ -57,6 +57,18 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         
     }
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        myTextField.resignFirstResponder()
+        nameField.resignFirstResponder()
+        
+        return false
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        myTextField.resignFirstResponder()
+
+    }
+    
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +76,8 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         putPeripheralManagerIntoMainQueue()
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Army.jpg")!)
+        
+//        self.myTextField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -432,15 +446,13 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         //
         println("selected: \(indexPath.row)")
+        myTextField.resignFirstResponder()
+
   //      updateStatusLabel("selected: \(cleanAndSortedArray[indexPath.row].3)")
         
         
         
     }
-
-    
-    
-    
 
 }
 
