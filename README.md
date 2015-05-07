@@ -9,7 +9,7 @@ Added ReadMe for Forking Example
 4. Mock up using U.S. army scenario
 
 # Screen Shot
-![ScreenShot]() 
+![ScreenShot](https://github.com/BoScott/GhostChat-iOS/blob/master/screenshot.PNG) 
 
 # Code Runs On:
 + iOS 8.1+
